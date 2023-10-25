@@ -1,0 +1,21 @@
+django-admin startproject Hello  // worked  -->  python -m django startproject Hello 
+python manage.py runserver   --> To Run server
+
+django:
+Model View Template
+View is used to execute business logic and interact with  a model to carry data and renders a template.
+
+
+Here there will be one Project. And inside project there will be multiple apps. One app must exist inside a project.
+
+python manage.py startapp home  --> to create app
+
+python manage.py makemigrations     --> to detect any change in you database schema
+python manage.py migrate    ---> djnago give some default tables/ like for authentications. so those
+                                 tables can be generated using this command.
+
+(makemigrations- Create changes and store in a file
+migrate - apply the pending changes created by makemigrations)
+
+python manage.py createsuperuser    --> to create superuser for your website
+admin/admin
